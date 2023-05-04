@@ -10,4 +10,5 @@ const counter = useCounterStore();
   {{ counter.showCount }}
 
   <button @click="counter.increment">Increment</button>
+  <button @click="counter.decrement">Decrement</button>
 </template>

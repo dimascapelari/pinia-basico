@@ -26,6 +26,10 @@ export const useCounterStore = defineStore("counter", {
     increment() {
       this.count++;
     },
+
+    decrement() {
+      this.count--;
+    },
   },
 
   // getters -> propriedades computadas
