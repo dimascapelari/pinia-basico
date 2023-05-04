@@ -6,16 +6,19 @@ const counter = useCounterStore();
 </script>
 
 <template>
-  <h2>Welcome to pinia</h2>
-  <!-- {{ counter.count }} -->
-  {{ counter.showCount }}
+  <div>
+    <h2>Welcome to pinia</h2>
+    <!-- {{ counter.count }} -->
 
-  <button @click="counter.increment">Increment</button>
+    {{ counter.showCount }}
 
-  <br />
-  <br />
-  <hr />
-  <br />
+    <button @click="counter.increment">Increment</button>
 
-  <Counter />
+    <br />
+    <br />
+    <hr />
+    <br />
+
+    <Counter />
+  </div>
 </template>
