@@ -2,9 +2,9 @@
 // import { defineStore } from 'pinia'
 
 // export const useCounterStore = defineStore('counter', () => {
-//   const count = ref(0)
-//   const doubleCount = computed(() => count.value * 2)
-//   function increment() {
+//   const count = ref(0)                                // state -> propriedades reativas
+//   const doubleCount = computed(() => count.value * 2) // getters -> propriedades computadas
+//   function increment() {                              // actions -> methods
 //     count.value++
 //   }
 
